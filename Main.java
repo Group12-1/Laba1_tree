@@ -28,6 +28,12 @@ public class Main {
 			numApple = tree.get(i).grow();
 			System.out.print(numApple + " ");
 		}
+		
+		System.out.println();
+		for(int i = 0; i < tree.size(); i++){
+			numApple = tree.get(i).dropApple();
+			System.out.print(numApple + " ");
+		}
 	}
 
 }
